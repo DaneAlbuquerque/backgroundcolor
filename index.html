@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Background color</title>
+</head>
+<body>
+
+    <div class="container"> 
+        <button class="amarelo" id="btn-amarelo">Amarelo</button>
+        <button class="azul" id="btn-azul">Azul</button>
+        <button class="laranja" id="btn-laranja">Laranja</button>
+    </div>    
+
+    <script>
+        document.getElementById("btn-amarelo").addEventListener("click", function(){document.querySelector("body").setAttribute("class", "amarelo"); 
+    })
+
+    document.getElementById("btn-azul").addEventListener("click", function(){document.querySelector("body").setAttribute("class", "azul"); 
+    })
+
+    document.getElementById("btn-laranja").addEventListener("click", function(){document.querySelector("body").setAttribute("class", "laranja"); 
+    })
+
+
+    </script>
+
+
+    
+</body>
+</html>
